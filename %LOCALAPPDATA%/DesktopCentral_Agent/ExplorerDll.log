@@ -1,0 +1,7 @@
+﻿Date	Time	Severity	PID	TID	Function	Message
+08-04-2026	16:38:23.895	 INFO	 39392	 40904	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+08-04-2026	16:38:23.896	 INFO	 39392	 33092	LateInitialization	"Intialization..."
+08-04-2026	16:38:23.896	 INFO	 39392	 33092	LateInitialization	"Exe = C:\Users\akilab\AppData\Local\Programs\Git\usr\bin\bash.exe"
+08-04-2026	16:38:23.897	 INFO	 39392	 33092	LateInitialization	"IsExplorer = 0"
+08-04-2026	16:38:23.897	 INFO	 39392	 33092	Edlp::Path::InitializeExcludedPathPatterns	"Windows drive = C:"
+08-04-2026	16:38:23.897	 INFO	 39392	 33092	LateInitialization	"Intialization finished"

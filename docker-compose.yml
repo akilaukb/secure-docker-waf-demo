@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    image: nginx:alpine
+    container_name: my-secure-app
+    volumes:
+      - ./app:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro     # Mount our security config
+    ports:
+      - "8080:80"
+    restart: unless-stopped

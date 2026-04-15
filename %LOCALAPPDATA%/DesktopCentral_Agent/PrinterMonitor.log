@@ -1,0 +1,24 @@
+﻿Date	Time	Severity	PID	TID	Function	Message
+08-04-2026	16:38:23.854	 INFO	 39392	 44012	DllMain	"DLL_PROCESS_ATTACH Sun Apr 27 14:47:17 2025 11.4.2500.28"
+08-04-2026	16:38:23.856	 INFO	 39392	 44012	DllMain	"PROCESS ATTACHED"
+08-04-2026	16:38:23.857	 INFO	 39392	 30688	LateInitialization	"Intialization..."
+08-04-2026	16:38:23.857	 INFO	 39392	 30688	LoadDisplayDevicesName	"DisplayDevices : "
+08-04-2026	16:38:23.858	 INFO	 39392	 30688	LoadDisplayDevicesName	"\\.\DISPLAY1"
+08-04-2026	16:38:23.858	 INFO	 39392	 30688	LoadDisplayDevicesName	"\\.\DISPLAY2"
+08-04-2026	16:38:23.859	 INFO	 39392	 30688	LoadDisplayDevicesName	"\\.\DISPLAY3"
+08-04-2026	16:38:23.860	 INFO	 39392	 30688	LoadDisplayDevicesName	"\\.\DISPLAY4"
+08-04-2026	16:38:26.877	ERROR	 39392	 30688	LateInitialization	"std::exception caught = GetFileVersionInfoSizeW failed with 1813
+"
+08-04-2026	16:38:26.878	 INFO	 39392	 30688	LateInitialization	"Exe = C:\Users\akilab\AppData\Local\Programs\Git\usr\bin\bash.exe
+ProductName = 
+FileDescription = 
+ShadowFolder = %LOCALAPPDATA%\EndpointDLP\print-shadow
+ParsingMode = Hybrid
+DeletePrinterShadowFiles = 1
+PrinterUseDisplayDevicesList = 0
+EnablePrinterEscapeProcessing = 1
+EnableWatermarkForAll = 0
+MaxPrintPages = 4294967295
+GdiPlusToken = 54179609
+ExcludedEscapes = 4117, 37, 4118, 4115, 4121, "
+08-04-2026	16:38:26.878	 INFO	 39392	 30688	LateInitialization	"Intialization finished"

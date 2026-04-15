@@ -1,12 +1,23 @@
 # Secure Docker + WAF Demo
 
-**Purpose**: Real-world demonstration of Cloud Security & DevSecOps skills  
-- Deployed a containerised application  
-- Added WAF layer for security (Safeline / Nginx style)  
-- Used proper Git workflow, permissions, SSH concepts, cron/systemd thinking  
-- Built with skills practised on KodeKloud (IPTABLES, Account Mgmt, Permissions, SSH/SCP, Cronjob, Systemd)
+**Project for Cloud Security & DevSecOps Portfolio**
 
-**Technologies**: Docker, WAF, Linux CLI, Git  
-**Status**: In progress — next commit will show working WAF-protected app
+This project demonstrates a secure web application deployment using Docker and Nginx configured as a basic Web Application Firewall (WAF).
 
-This project shows my ability to build and secure production-like environments.
+### Features
+- Containerised Nginx web application
+- WAF protection with rate limiting and security headers
+- Docker Compose for easy deployment
+- Proper network isolation and restart policies
+
+### Technologies Used
+- Docker & Docker Compose
+- Nginx (as both App and WAF)
+- Linux security concepts (rate limiting, security headers)
+
+### Architecture
+Browser → WAF Layer (Nginx with security rules) → Application Container
+
+### How to Run
+```bash
+docker compose up -d
