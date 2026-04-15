@@ -21,3 +21,6 @@ Browser → WAF Layer (Nginx with security rules) → Application Container
 ### How to Run
 ```bash
 docker compose up -d
+
+### Deploymnet Images
+![Web Preview](images/webpreview.png)
