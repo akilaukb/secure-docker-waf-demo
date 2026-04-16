@@ -19,9 +19,8 @@ This project demonstrates a secure web application deployment using Docker and N
 Browser → WAF Layer (Nginx with security rules) → Application Container
 
 ### How to Run
- ![Wazuh Diagram](/images/webpreview.png)
+
 ```bash
 docker compose up -d
-
-
 ```
+ ![### Deploymnet Images](/images/webpreview.png)
